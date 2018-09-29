@@ -1,0 +1,35 @@
+[
+  {
+    "fileName": "main.js",
+    "imports": [],
+    "modules": [
+      "main.js"
+    ]
+  },
+  {
+    "fileName": "a.js",
+    "imports": [
+      null
+    ],
+    "modules": [
+      "d.js",
+      "a.js"
+    ]
+  },
+  {
+    "fileName": "chunk.js",
+    "imports": [],
+    "modules": [
+      "c.js"
+    ]
+  },
+  {
+    "fileName": "b.js",
+    "imports": [
+      "chunk.js"
+    ],
+    "modules": [
+      "b.js"
+    ]
+  }
+]
